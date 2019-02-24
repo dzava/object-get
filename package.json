@@ -1,0 +1,36 @@
+{
+  "name": "@dzava/object-get",
+  "version": "0.1.0",
+  "description": "Get the value of an object based on a path",
+  "main": "dist/index.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "build": "./node_modules/babel-cli/bin/babel.js src -d dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dzava/object-get.git"
+  },
+  "keywords": [
+    "object",
+    "array",
+    "pick",
+    "get"
+  ],
+  "author": "Dimitris Zavantias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dzava/object-get/issues"
+  },
+  "homepage": "https://github.com/dzava/object-get",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "jest": "^16.0.0"
+  }
+}
